@@ -5,8 +5,7 @@
   "build": {
     "production": {
       "ios": {
-        "distribution": "store", // ✅ valid: "store" or "internal"
-        "enterpriseProvisioning": "off"
+        "distribution": "store"
       }
     }
   },
