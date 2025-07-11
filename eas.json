@@ -1,0 +1,20 @@
+{
+  "cli": {
+    "version": ">= 3.0.0"
+  },
+  "build": {
+    "production": {
+      "ios": {
+        "buildType": "release",
+        "distribution": "app-store"
+      }
+    }
+  },
+  "submit": {
+    "production": {
+      "ios": {
+        "appleId": "giantogram@gmail.com"
+      }
+    }
+  }
+}
