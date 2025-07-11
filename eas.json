@@ -5,8 +5,8 @@
   "build": {
     "production": {
       "ios": {
-        "buildType": "release",
-        "distribution": "app-store"
+        "distribution": "store", // ✅ valid: "store" or "internal"
+        "enterpriseProvisioning": "off"
       }
     }
   },
